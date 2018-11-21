@@ -7,13 +7,9 @@ from torch.autograd import Variable
 import matplotlib.pyplot as plt
 import seaborn
 	
-
-
 # Small example model.
 tmp_model = make_model(10, 10, 2)
 None
-
-
 
 def subsequent_mask(size):
     "Mask out subsequent positions."
