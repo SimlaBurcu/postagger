@@ -2,10 +2,8 @@ import numpy as np
 import torch
 from torch.autograd import Variable
 
-from attention import make_model
+from attention import make_model, NoamOpt, LabelSmoothing
 from train import Batch, run_epoch
-from optimizer import NoamOpt
-from regularization import LabelSmoothing
 ### First Example ###
 
 def data_gen(V, batch, nbatches):
