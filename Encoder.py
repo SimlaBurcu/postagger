@@ -13,7 +13,6 @@ def wordEncoder(word):
         encoded[i][index] = 1
     return encoded
 
-
 def targetEncoder(target):
     encoded = [0] * len(tags)
     index = tags.index(target)
